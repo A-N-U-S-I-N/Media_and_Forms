@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 5</title>
+    <style>
+        fieldset{
+            font-size: 1.4em;
+            width:max-content;
+        }
+    </style>
+</head>
+<body bgcolor="black" style="color: white;"><center>
+    <fieldset>
+        <legend style="text-align: center; font-size: 4em;"><b>Sign-Up</b></legend>
+        <form action="#" method="post" style="text-align: left;">
+        <div class="first_name">
+            <label for="first_name">First Name :</label>
+            <input type="text" id="first_name" required minlength="3" placeholder="Enter First Name" name="first_name" size="50"/>
+        </div>
+        <div class="last_name">
+            <label for="last_name">Last Name :</label>
+            <input type="text" required minlength="3" id="last_name" placeholder="Enter Last Name" name="last_name" size="50"/>
+        </div>
+        <div class="mail">
+            <label for="mail">E-mail :</label>
+            <input type="email" required id="mail" minlength="3" placeholder="Enter E-mail" name="E-mail" size="55">
+        </div>
+        <div class="pass">
+            <label for="pass">Password :</label>
+            <input type="password" required id="pass" placeholder="Password" name="password" size="52"/>
+        </div>
+        <div class="con">
+            <label for="con">Confirm Password :</label>
+            <input type="password" required id="con" placeholder="Confirm Password" name="confirm_password" size="42"/>
+        </div>
+        <div class="ag">
+            <label for="age">Age :</label>
+            <input type="number" required id="age" min="1" max="150" name="age" placeholder="Age"/>
+            <label for="gen" >Gender :</label>
+            <input type="radio" id="m" value="Male" name="gen">
+            <label for="m">Male</label>
+            <input type="radio" id="f" value="Female" name="gen">
+            <label for="f">Female</label>
+            <input type="radio" id="o" value="Others" name="gen">
+            <label for="o">Others</label>
+        </div>
+        <input type="checkbox" id="terms" required name="terms"><label for="terms">Agree to terms and conditions</label>
+        <div class="sub">
+                <input type="submit" name="submit" ><input type="reset" name="reset">
+        </div>
+        
+    </form>
+    </fieldset>
+    <h1 style="font-size: 2em;">---------------------------------------------  Or  ---------------------------------------------</h1>
+    <fieldset>
+        <legend style="text-align: center; font-size: 4em;"><b>Sign-In</b></legend>
+        <form action="#" method="post" style="text-align: left;">
+            <div class="e">
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" placeholder="Enter E-mail" required name="e-mail" minlength="3" size="23" />
+            </div>
+            <div class="word">
+                <label for="pass">Password :</label>
+                <input type="password" required placeholder="Password" name="password" id="pass">
+            </div>
+            <input type="submit">
+        </form>
+    </fieldset>
+</center>
+</body>
+</html>
